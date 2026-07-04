@@ -72,3 +72,34 @@ The donut chart shows what sells — Paseo leads, VTT lags.
 The treemap shows who buys — Government and Small Business dominate.
 The price trend chart shows how pricing relates to cost over time.
 The Discount Band slicer lets anyone dig deeper into how discounting strategy affects everything above.
+
+
+# 📑 Additional Report Pages
+
+Along with the main dashboard, additional report pages were created to meet specific client requirements. Not every analysis needs to appear on a single dashboard, so these pages focus on detailed insights while keeping the main dashboard clean and easy to understand.
+
+# 1. Bookmark-Based Time Analysis
+Chart:
+This page uses Bookmarks with navigation buttons to switch between Year, Quarter, and Month views without creating multiple visuals. This improves report organization and provides a better user experience.
+
+Story:
+Users can quickly compare business performance at different time levels, making it easier to identify yearly trends, quarterly growth, and monthly fluctuations.
+
+# 2. Sub-Category Performance Table (Conditional Formatting)
+Chart:
+This table was designed as per the client's requirements to display Sub-Category-wise Sales, Profit, Quantity, and Discount using conditional formatting:
+
+Sales: Background color from red (lowest) to green (highest).
+Profit: Green upward arrows for positive profit and red downward arrows for negative profit.
+Quantity: Data bars for easy comparison.
+Discount: Font color from red (lowest) to green (highest).
+
+Story:
+The formatting allows users to interpret the data instantly without examining every value. High-performing and low-performing sub-categories can be identified at a glance, making the report more intuitive and decision-friendly.
+
+# 3. Waterfall Chart – Sales by Year and Category
+Chart:
+The Waterfall Chart shows how each product category contributes to total sales across different years, highlighting both increases and decreases.
+
+Story:
+This visual helps users understand the cumulative impact of each category on yearly sales, making it easier to identify which categories drive growth and which require improvement.
